@@ -1,0 +1,13 @@
+<html>
+	<head>
+		<title>Testing NGiNX Upload module</title>
+	</head>
+	<body>
+		<h2>Select file to upload</h2>
+		<form name="upload" method="POST" enctype="multipart/form-data" action="/upload">
+			<input type="file" name="file"><br>
+            <!-- ... make more imputs file2, file3, etc. if you want to upload more than one file -->
+			<input type="submit" name="submit" value="Upload">
+		</form>
+	</body>
+</html>
